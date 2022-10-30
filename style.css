@@ -42,6 +42,7 @@ main{
 }
 
 
+
 /* -------------------------------Number Button--------------------------------------- */
 .buttonContainer input{
     display: none; 
@@ -59,15 +60,21 @@ main{
     color:hsl(216, 12%, 54%);
     font-size: 15px;
 }
-
-/* .buttonContainer label:hover{
+.buttonContainer label:hover{
     cursor: pointer;
 }
 .buttonContainer label:active{
     background-color: hsl(25, 97%, 53%);
     color:hsl(0, 0%, 100%);
-}*/
-
+}
+#number1:checked ~ .number_1,
+#number2:checked ~ .number_2,
+#number3:checked ~ .number_3,
+#number4:checked ~ .number_4,
+#number5:checked ~ .number_5{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
 
 /* -------------------------------Submit Button--------------------------------------- */
 .submit{
@@ -85,8 +92,6 @@ main{
 .submit:hover{
     cursor: pointer;
 }
-
-
 
 h1{
     color:hsl(0, 0%, 100%);
