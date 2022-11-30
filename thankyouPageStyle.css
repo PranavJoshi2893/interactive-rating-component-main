@@ -45,3 +45,15 @@ h1{
     text-align: center;
     color:hsl(0, 0%, 100%);
 }
+
+@media(max-width: 450px){
+    main{
+        width: 350px;
+        height: 380px;
+    }
+    .mainContainer{
+        margin: 20px;
+        width: 310px;
+        height: 340px;
+    }
+}
